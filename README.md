@@ -1,2 +1,6 @@
-# Define-Symbol-Manager
-PlayerSetting 내부에 있는 Define Symbol 의 가독성 및 관리를 편하게 하기 위한 Tool
+PlayerSetting 정보 안에 있는 Script Define Symbols의 가독성 및 관리를 편하게 하고자 제작하였습니다.
+
+팀에서 프로젝트를 진행하다보면, 특정 함수나, 일부 코드를 사용하지 않아야 할 때가 빈번하게 발생합니다.
+예를들어, 컨텐츠는 완료 했지만 아직 나오면 안된다던가, 테스트로 작성한 Script가 남아있어 엉뚱하게 동작하던가 말입니다.
+
+해당 Tool을 사용하여 #if 전처리 지시어를 좀 더 편하게 등록하고 제거하고 적용 할 수 있게 해줍니다.
